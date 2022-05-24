@@ -1,4 +1,5 @@
 package com.example.mahin;
+import javafx.css.Style;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.Menu;
@@ -24,15 +25,15 @@ public class NotePad {
         Menu format = new Menu("Format");
         Menu view = new Menu("View");
         Menu Help = new Menu("Help");
+        Menu game = new Menu("Game");
 
         MenuItem New= new MenuItem("New");
         MenuItem Open = new MenuItem("Open");
         MenuItem Save = new MenuItem("Save");
         MenuItem Save_as = new MenuItem("Save AS");
-
         file.getItems().addAll(New,Open,Save,Save_as);
 
-        menubar.getMenus().addAll(file,edit,format,view,Help);
+        menubar.getMenus().addAll(file,edit,format,view,Help,game);
 
 
         TextArea txtarea = new TextArea();

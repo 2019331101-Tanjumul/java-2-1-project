@@ -1,0 +1,7 @@
+TextArea textArea = new TextArea(); //making a TexrArea object
+double height = 400; //making a variable called height with a value 400
+double width = 300;  //making a variable called height with a value 300
+
+//You can use these methods
+textArea.setPrefHeight(height);  //sets height of the TextArea to 400 pixels 
+textArea.setPrefWidth(width);    //sets width of the TextArea to 300 pixels

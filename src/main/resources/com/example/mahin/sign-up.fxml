@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="613.0" prefWidth="731.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mahin.RegisterController">
+   <children>
+      <VBox layoutX="10.0" layoutY="16.0" prefHeight="491.0" prefWidth="712.0" style="-fx-background-color: POWDERBLUE;">
+         <children>
+            <Label opacity="0.81" prefHeight="100.0" prefWidth="719.0" style="-fx-background-color: WHEAT;" text="Creat Your Account" textFill="#860ca4">
+               <font>
+                  <Font size="39.0" />
+               </font>
+            </Label>
+            <HBox prefHeight="26.0" prefWidth="712.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="719.0" text="USERNAME " textFill="#282828">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="37.0" prefWidth="712.0" style="-fx-background-color: GOLD;">
+               <children>
+                  <TextField prefHeight="37.0" prefWidth="536.0" promptText="Put Your Username Here" />
+               </children>
+            </HBox>
+            <HBox prefHeight="52.0" prefWidth="712.0">
+               <children>
+                  <Label prefHeight="47.0" prefWidth="284.0" text="EMAIL-ADDRESS" textFill="#242528">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="35.0" prefWidth="712.0" style="-fx-background-color: GOLD;">
+               <children>
+                  <TextArea prefHeight="38.0" prefWidth="571.0" promptText="Enter Your Email Address" />
+               </children>
+            </HBox>
+            <HBox prefHeight="46.0" prefWidth="712.0">
+               <children>
+                  <Label prefHeight="36.0" prefWidth="247.0" text="YOUR-PASSWORD">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="42.0" prefWidth="712.0" style="-fx-background-color: gold;">
+               <children>
+                  <PasswordField prefHeight="40.0" prefWidth="606.0" promptText="Never share your password " />
+               </children>
+            </HBox>
+            <Button fx:id="registerButton" mnemonicParsing="false" prefHeight="45.0" prefWidth="69.0" text="Sign Up" />
+         </children>
+      </VBox>
+      <VBox layoutX="10.0" layoutY="508.0" opacity="0.65" prefHeight="88.0" prefWidth="712.0" style="-fx-background-color: WHEAT;">
+         <children>
+            <Label prefHeight="55.0" prefWidth="708.0" text="Deveoped by" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Tanjumul_2019331101,Cse_SUST." wrappingWidth="603.7294921875" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
